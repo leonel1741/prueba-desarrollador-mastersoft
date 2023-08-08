@@ -12,14 +12,15 @@ const MoviesList = () => {
                 moviesList.map(movie => (
                     <li className="list-group-item">
                         <div>
-                            <p>{movie.title}</p>
-                            <p>{movie.released}</p>
-                            <p>{movie.director}</p>
-                            <p>{movie.actors}</p>
+                            <p>{movie.Title}</p>
+                            <p>{movie.Released}</p>
+                            <p>{movie.Director}</p>
+                            <p>{movie.Actors}</p>
                         </div>
                     </li>
                 ))
             }
+            <li>Gaaa</li>
         </ul>
     )
 };
